@@ -1,0 +1,11 @@
+[compiler]
+ARM64 GNU compiler 4.7.3 for Coretex-A
+
+[dependencies]
+none
+
+[build]
+export ARCH=arm
+export CROSS_COMPILE=arm-linux-gnueabi-
+./Build-bravia-kernel.sh
+
